@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(253, 124, 4);
+}
+
+h1 {
+  background-color: black;
+  color: aliceblue;
+  font-family: Book Antiqua;
+  font-size: 100px;
+  text-shadow: 2px 2px rgba(241, 157, 29, 0.89);
+  padding: 8px;
+  text-align: center;
+  margin: 0em;
+}
+
+h2 {
+  background-color: black;
+  color: aliceblue;
+  font-family: Book Antiqua;
+  font-size: 50px;
+  text-shadow: 2px 2px orange;
+  padding: 8px;
+  text-align: center;
+  margin: 0em;
+}
+
+img {
+  width: 450px;
+  height: 300px;
+  object-fit: cover;
+  margin: 5px;
+  border: 8px solid black;
+}
+
+
+.parent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
